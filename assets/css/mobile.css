@@ -2735,9 +2735,7 @@
 
 @media screen and (max-width: 575px) {
   .home-banner-section .banner-container-box .home-banner-text h1 {
-    padding: 0 6px;
-    font-size: 34px;
-    line-height: 37px;
+    font-size: 20px;
   }
 
   .home-banner-section .banner-container-box .banner-paragraph {
