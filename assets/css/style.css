@@ -46,14 +46,24 @@ html {
 }
 
 .contact {
-  color: #000000;
+  color: #ffffff;
   font-family: 'Orbitron', sans-serif;
 }
 
 .logofont {
   font-family: 'Orbitron', sans-serif;
+  color: #ffffff !important;
 }
 
+.header {
+  background: #1c1c20;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 1000;
+
+}
 
 h1 {
   font-size: 70px;
@@ -212,7 +222,7 @@ a {
   right: -353px;
 }
 
-.home-header-section:before {
+/* .home-header-section:before {
   background: url(../images/header-left-circle-img.png);
   content: "";
   width: 445px;
@@ -220,7 +230,7 @@ a {
   position: absolute;
   top: -180px;
   left: -240px;
-}
+} */
 
 .home-header-section .main-header .navbar-brand {
   margin-left: 0px;
@@ -235,7 +245,7 @@ a {
 }
 
 .home-header-section .main-header {
-  padding: 26px 298px 0 350px;
+  padding: 26px 298px 24px 350px;
 }
 
 .home-banner-section .banner-container-box .home-banner-text {
@@ -548,8 +558,14 @@ a {
   margin-bottom: 46px;
 }
 
+.partners-section .owl-stage-outer {
+  display: flex;
+  justify-content: center;
+}
+
+
 .our-services-section .services-content {
-  background: #90C2FF;
+  /* background: #90C2FF; */
   border-radius: 10px;
   padding: 37px 51px 53px 51px;
   transition: 0s all ease-in-out;
@@ -632,7 +648,7 @@ a {
 
 .our-services-section .owl-theme .owl-dots .owl-dot.active span,
 .owl-theme .owl-dots .owl-dot:hover span {
-  background: var(--e-global-color-hover);
+  background: var(--e-global-color-dark-blue);
   border: none !important;
 }
 
@@ -1693,7 +1709,7 @@ a {
 
 /* footer-section */
 .footer-section {
-  background: var(--e-global-color-dark-blue);
+  /* background: var(--e-global-color-dark-blue); */
   color: var(--e-global-color-secondary);
   overflow: hidden;
   padding: 111px 0 0;
@@ -1748,14 +1764,18 @@ a {
 
 .footer-section .useful-footer {
   padding-left: 36px;
+  list-style: none;
+  color: var(--e-global-color-secondary) !important;
 }
 
 .footer-section .footer-next-list-about {
   padding-left: 17px;
 }
 
-.footer-section .footer-next-list-contact {
-  margin-left: -12px;
+.footersize {
+  font-size: 1.7rem;
+  color: var(--e-global-color-secondary);
+  font-family: 'Orbitron', sans-serif;
 }
 
 .footer-section .footer-next-list-signup {
@@ -1768,7 +1788,7 @@ a {
 }
 
 .footer-section .useful-footer li {
-  color: var(--e-global-color-accent);
+  color: var(--e-global-color-secondary);
   margin-bottom: 8px;
 }
 
@@ -1838,7 +1858,7 @@ a {
 .footer-bar .footer-bar-content {
   padding: 16px 0;
   margin-top: 84px;
-  border-top: 1px solid var(--e-global-color-bar);
+  /* border-top: 1px solid var(--e-global-color-bar); */
 }
 
 .footer-section .form-control {
@@ -2763,13 +2783,28 @@ a {
   border: 1px solid var(--e-global-color-hover);
 }
 
+.grayyy {
+  background: #e3e2e2;
+}
+
+table,
+th,
+td,
+tr,
+tbody,
+thead {
+  font-size: 1.3rem !important;
+}
+
+table tbody tr td p {
+  font-size: 1.3rem !important;
+}
 
 .comparison-table {
-  max-width: 900px;
   margin: 40px auto;
   border-collapse: separate;
   border-spacing: 0;
-  width: 90%;
+  width: 100%;
   background-color: #fff;
   border-radius: 10px;
   /* Rounded corners */
@@ -2877,12 +2912,12 @@ a {
 
 /* Custom CSS for Responsive Font Sizes */
 .banner-title {
-  font-size: 2.5rem;
+  font-size: 4.5rem;
   /* Default font size for large screens */
 }
 
 .banner-subtitle {
-  font-size: 1.25rem;
+  font-size: 1.5rem;
   /* Default subtitle font size */
 }
 

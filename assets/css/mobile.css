@@ -27,7 +27,7 @@
   }
 
   .home-header-section .main-header {
-    padding: 26px 298px 0 310px;
+    padding: 26px 298px 24px 310px;
   }
 
   .about-us-section .about-left-back-img {
@@ -90,7 +90,7 @@
   }
 
   .home-header-section .main-header {
-    padding: 26px 286px 0 306px;
+    padding: 26px 286px 24px 306px;
   }
 
   .home-header-section:before {
@@ -141,7 +141,7 @@
   }
 
   .home-header-section .main-header {
-    padding: 26px 230px 0 280px;
+    padding: 26px 230px 24px 280px;
   }
 
   .home-banner-section .banner-container-box .home-banner-text {
@@ -227,7 +227,7 @@
 
 @media screen and (max-width: 1650px) {
   .home-header-section .main-header {
-    padding: 26px 150px 0 283px;
+    padding: 26px 150px 24px 283px;
   }
 
   .home-header-section .banner-right-img {
@@ -290,7 +290,7 @@
 
 @media screen and (max-width: 1550px) {
   .home-header-section .main-header {
-    padding: 26px 100px 0 260px;
+    padding: 26px 100px 24px 260px;
   }
 
   .home-header-section:before {
@@ -361,7 +361,7 @@
   }
 
   .footersize {
-    font-size: 24px;
+    font-size: 15px;
   }
 
   /* carousel-section */
@@ -430,7 +430,7 @@
 
 @media screen and (max-width: 1440px) {
   .home-header-section .main-header {
-    padding: 26px 40px 0 180px;
+    padding: 26px 40px 24px 180px;
   }
 
   .home-header-section:before {
@@ -609,7 +609,7 @@
 
 @media screen and (max-width: 1350px) {
   .home-header-section .main-header {
-    padding: 26px 30px 0 180px;
+    padding: 26px 30px 24px 180px;
   }
 
   .home-header-section:before {
@@ -624,7 +624,7 @@
 
 @media screen and (max-width: 1250px) {
   .home-header-section .main-header {
-    padding: 26px 22px 0 112px;
+    padding: 26px 22px 24px 112px;
   }
 
   .home-header-section .main-header .navbar-collapse .btn-talk a {
@@ -657,7 +657,7 @@
   }
 
   .home-header-section .main-header {
-    padding: 26px 10px 0 30px;
+    padding: 26px 10px 24px 30px;
   }
 
   .home-header-section .main-header .navbar-brand {
@@ -1292,7 +1292,7 @@
   }
 
   .home-header-section .main-header {
-    padding: 35px 0px 0 0;
+    padding: 35px 0px 24px 0;
   }
 
   .home-header-section .banner-right-img {
