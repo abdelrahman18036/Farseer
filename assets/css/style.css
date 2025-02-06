@@ -2930,3 +2930,9 @@ table tbody tr td p {
       /* Smaller subtitle font size for mobile */
   }
 }
+
+.partners-section .col {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

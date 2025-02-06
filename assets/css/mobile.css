@@ -1378,7 +1378,7 @@
   }
 
   .navbar-light .navbar-toggler-icon {
-    background: var(--e-global-color-secondary);
+    background: #fff;
     height: 2px;
     margin: 7px 0 0 0;
     width: 100%;
