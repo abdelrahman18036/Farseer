@@ -2,10 +2,10 @@ $(document).ready(function () {
   var owl = $(".our-services-section .owl-carousel");
   owl.owlCarousel({
     margin: 30,
-    nav: true,
-    loop: true,
+    nav: false,
+    loop: false,
     dots: false,
-    autoplay: true,
+    autoplay: false,
     autoplayTimeout: 4500,
     responsive: {
       0: {
