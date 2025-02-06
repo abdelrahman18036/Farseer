@@ -1238,7 +1238,7 @@
 
 @media only screen and (max-width: 991px) {
   .home-banner-section .banner-container-box .home-banner-text h1 {
-    margin-bottom: 15px;
+    margin-bottom: 0;
     padding: 0 68px;
     font-size: 47px;
     line-height: 50px;
@@ -2125,7 +2125,7 @@
   }
 
   .home-banner-section {
-    padding-top: 0px;
+    padding-top: 100px;
     padding-bottom: 38px;
   }
 
@@ -2257,7 +2257,7 @@
   .banner-img-content {
     left: 0;
     text-align: center;
-    top: 25px;
+    /* top: 25px; */
   }
 
   /* our services */
